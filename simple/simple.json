@@ -1,0 +1,46 @@
+{
+  "avengers": [
+    {
+      "title": "batman",
+      "city": "Gujarat",
+      "power": 5,
+      "poster": "batman.jpg"
+    },
+    {
+      "title": "captainamerica",
+      "city": "santorini",
+      "power": 5,
+      "poster": "captainamerica.jpg"
+    },
+    {
+      "title": "hawkeye",
+      "city": "Delhi",
+      "power": 2,
+      "poster": "hawkeye.jpg"
+    },
+    {
+      "title": "hawkeye",
+      "city": "Gujarat",
+      "power": 6,
+      "poster": "hawkeye.jpg"
+    },
+    {
+      "title": "captainmarvel",
+      "city": "Delhi",
+      "power": 7,
+      "poster": "captainmarvel.jpg"
+    },
+    {
+      "title": "hawkeye",
+      "city": "Las vegas",
+      "power": 2,
+      "poster": "hawkeye.jpg"
+    },
+    {
+      "title": "batman",
+      "city": "santorini",
+      "power": 1,
+      "poster": "batman.jpg"
+    }
+  ]
+}
