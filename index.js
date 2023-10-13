@@ -12,7 +12,14 @@ const power = Math.round(Math.random() * 10);
 
 const selectedHero = herolist[randomHeroIndex];
 const selectedCity = herocity[randomCityIndex];
-const selectedPoster = heroposter[randomHeroIndex];
+let selectedPoster;
+for (const element of heroposter) {
+    const regex = new RegExp(`^${selectedHero}\.jpg$`, 'i'); // 'i' flag makes the regex case-insensitive
+    if (regex.test(element)) {
+        selectedPoster = element;
+        break;
+    }
+}
 
 const newData = {
   avengers: [
